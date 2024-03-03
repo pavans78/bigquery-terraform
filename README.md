@@ -1,6 +1,5 @@
 # Big Query-Terraform
-Terraform Sample for GCP Bigquery.
-
+Terraform for GCP Bigquery. This repo contains how to create the datasets, tables and tables using partitioning and for-each for creating more than one repo.
 
 ## Try it out
 
