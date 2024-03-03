@@ -34,7 +34,6 @@ table-pf = {
     schema                   = "../src/schemas/bq_schema1.json"
     partitioning_field       = "last_updated"
     partitioning_type        = "DAY"
-    require_partition_filter = true
   }
   bq_table1 = {
     dataset_id               = "test_dataset"
@@ -44,6 +43,5 @@ table-pf = {
     schema                   = "../src/schemas/bq_schema1.json"
     partitioning_field       = "last_updated"
     partitioning_type        = "YEAR"
-    require_partition_filter = true
   }
 }
