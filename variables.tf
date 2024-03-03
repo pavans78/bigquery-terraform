@@ -38,6 +38,5 @@ variable "table-pf" {
     schema                   = string
     partitioning_field       = string
     partitioning_type        = string
-    require_partition_filter = bool
   }))
 }
