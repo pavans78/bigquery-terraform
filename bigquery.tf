@@ -41,7 +41,6 @@ resource "google_bigquery_table" "table-pf" {
   time_partitioning {
     field                    = each.value.partitioning_field
     type                     = each.value.partitioning_type
-    require_partition_filter = each.value.require_partition_filter
   }
 
   labels = {
